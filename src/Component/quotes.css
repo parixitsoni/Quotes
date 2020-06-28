@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|K2D');
+
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  overflow-y: hidden;
+}
+
