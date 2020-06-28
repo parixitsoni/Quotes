@@ -2,7 +2,7 @@
   "name": "quotes",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://parixitsoni.github.io/motivationalquotes",
+  "homepage":"https://parixitsoni.github.io/quotes",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.10",
     "@testing-library/jest-dom": "^4.2.4",
