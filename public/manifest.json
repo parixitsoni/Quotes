@@ -1,7 +1,10 @@
 {
   "short_name": "Quotes",
   "name": "Simple app which provides motivational quotes",  
+  "theme_color": "#0xF0F0F0",
+  "background_color": "0xF0F0F0",
   "start_url": ".",
+  "display": "standalone",
   "icons": [
 		{
 			"src": "logo/72x72.png",
@@ -33,8 +36,5 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	],
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+	]
 }
