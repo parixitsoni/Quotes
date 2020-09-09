@@ -1,7 +1,0 @@
-
-[code autolinks=”false”]
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.parixitsoni.com
-RewriteRule ^mydir/(.*)$ https://quote.parixitsoni.com/$1 [L,R=301]
-[/code]
