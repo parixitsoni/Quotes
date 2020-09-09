@@ -1,8 +1,1 @@
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^(www.)?parixitsoni.com$
-RewriteCond %{REQUEST_URI} !^/quote/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /quote/$1
-RewriteCond %{HTTP_HOST} ^(www.)?parixitsoni.com$
-RewriteRule ^(/)?$ quote/index.html [L]
+
