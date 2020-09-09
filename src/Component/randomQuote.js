@@ -44,7 +44,7 @@ class RandomQuote extends Component {
                     <Card.Body>
                         <blockquote className="blockquote mb-0">
                             {quote}
-                            <footer className="blockquote-footer">
+                            <footer className="blockquote-footer text-right">
                                 <cite>{author}</cite>
                             </footer>
                         </blockquote>
