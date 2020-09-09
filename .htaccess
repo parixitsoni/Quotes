@@ -1,1 +1,7 @@
 
+[code autolinks=”false”]
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.parixitsoni.com
+RewriteRule ^mydir/(.*)$ http://quote.sample.com/$1 [L,R=301]
+[/code]
