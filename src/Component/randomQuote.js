@@ -54,7 +54,7 @@ class RandomQuote extends Component {
                         <a href={`https://twitter.com/intent/tweet?text= "${quote}" -${author}`} data-toggle="share on twitter" rel='noopener noreferrer' target="_blank" id='tweet-quote'>
                             <i className="fa fa-twitter twitter-icon fa-2x m-2" />
                         </a>
-                       <Button variant="primary" className="float-right button rounded-pill" onClick={this.getNewQuote}>New Quote</Button>
+                       <Button variant="outline-primary" className="float-right button rounded-pill" onClick={this.getNewQuote}>New Quote</Button>
                      </Card.Body>
                 </Card>
             </Container>
